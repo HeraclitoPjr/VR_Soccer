@@ -1,0 +1,151 @@
+*{margin: 0; padding: 0;}
+
+nav{
+  display: block;
+  position: ;
+}
+
+nav h1{
+  margin-right: 100px;
+  font-size: 30px;
+}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+.menu{
+list-style:none;
+float:left;
+position: relative;
+z-index: 10000000;
+}
+
+.menu li{
+  position:relative;
+  float:left;
+  font-size: 15px;
+  margin-top: 10px;
+  z-index: 1000000;
+position: relative;
+  }
+
+.menu li a{
+  border-radius: 2rem;
+  border: none;
+  color:#333; 
+  text-decoration:none; 
+  padding:5px 10px; 
+  display:block;
+
+}
+
+.menu li a:hover{
+  border-radius: 2rem;
+  border: none;
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+position: relative;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#fff;
+  display:none;
+  }
+
+  .menu li:hover ul, .menu li.over ul{display:block}
+
+  .menu li ul li{
+    display:block;
+    width:150px;
+    }
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+body header div nav ul{
+	display: flex;
+}
+
+body header div nav ul li{
+	font-size: 2vw;
+	margin: auto 6vw auto 3vw;
+	height: 100px;
+
+}
+
+body section h2{
+	text-align: center;
+}
+
+.imgDestaque{
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.imgDestaque:hover{
+  border-radius: 10%;
+  transition: all 0.5s;
+}
+
+.imgMaisVendidos1{
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.imgMaisVendidos1:hover{
+  border-radius: 10%;
+  transition: all 0.5s;
+}
+
+div.Destaque1{
+  display: inline-block;
+  text-align: center;
+}
+
+div.MaisVendidos1{
+  display: inline-block;
+  text-align: center;
+}
+
+.Produto{
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.Produto:hover{ 
+  background-color: mediumaquamarine; 
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+
+div.MaisVendidos1{
+  display: inline-block;
+  text-aling: center;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.ProdutoValor{
+  color: #00BFFF;
+}
+
+h2{
+  margin-top: 50px;
+}
