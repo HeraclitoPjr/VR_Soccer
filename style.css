@@ -1,8 +1,13 @@
-*{margin: 0; padding: 0;}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
-nav{
+nav {
   display: block;
-  position: ;
+  position: relative;
 }
 
 nav h1{
@@ -13,6 +18,24 @@ nav h1{
 body{
 font-family: arial, helvetica, sans-serif;
 font-size: 12px;
+}
+
+#divBusca {
+  background-color: none;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+#txtBusca {
+  float: none;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border-radius: 15px;
+  height: 32px;
+  width: 100%;
 }
 
 .menu{
@@ -44,12 +67,12 @@ position: relative;
 .menu li a:hover{
   border-radius: 2rem;
   border: none;
-background:#333;
-color:#fff;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
-position: relative;
+  background:#333;
+  color:#fff;
+  -moz-box-shadow:0 3px 10px 0 #CCC;
+  -webkit-box-shadow:0 3px 10px 0 #ccc;
+  text-shadow:0px 0px 5px #fff;
+  position: relative;
 }
 
 .menu li  ul{
@@ -133,14 +156,12 @@ div.MaisVendidos1{
 
 div.MaisVendidos1{
   display: inline-block;
-  text-aling: center;
+  text-align: center;
 }
 
 li{
   list-style: none;
 }
-
-
 
 .ProdutoValor{
   color: #00BFFF;
